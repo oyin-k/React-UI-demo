@@ -49,8 +49,19 @@
   margin: auto;
 }
 
-.topics a {
+.topics button {
   color: #939393;
+  font-size: 18px;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 0.2px;
+  line-height: 38px;
+  font-weight: 500;
+  -webkit-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  display: block;
+  padding: 0 20px;
+  background: transparent;
+  width: 300px;
 }
 
 .topic-number {

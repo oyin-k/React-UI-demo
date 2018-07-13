@@ -1,14 +1,12 @@
 import React, { Component }  from "react";
 import './App.css';
 
-class TopicDetails extends Component {
-    render() {
+const TopicDetails = ({topicDetails}) => {
         return (
             <div className="topic-details">
-                <p>Details dey here</p>
+                <p>{topicDetails}</p>
             </div>
         );
-    }
 } 
 
 export default TopicDetails;
